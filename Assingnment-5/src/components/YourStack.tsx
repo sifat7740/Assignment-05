@@ -6,19 +6,12 @@ interface YourStackProps {
   onRemoveAll: () => void;
 }
 
-const YourStack = ({
-  stack,
-  onRemove,
-  onRemoveAll,
-}: YourStackProps) => {
+const YourStack = ({ stack, onRemove, onRemoveAll }: YourStackProps) => {
   return (
     <aside className="lg:sticky lg:top-24 lg:self-start">
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-
         <div>
-          <h2 className="text-xl font-bold text-slate-900">
-            Your Stack
-          </h2>
+          <h2 className="text-xl font-bold text-slate-900">Your Stack</h2>
 
           <p className="mt-1 text-sm text-slate-500">
             {stack.length} Technology Selected
@@ -41,7 +34,6 @@ const YourStack = ({
           </div>
         ) : (
           <div className="mt-6 flex flex-col gap-3">
-
             {stack.map((technology) => (
               <div
                 key={technology.id}
@@ -80,10 +72,8 @@ const YourStack = ({
             >
               Remove All
             </button>
-
           </div>
         )}
-
       </div>
     </aside>
   );

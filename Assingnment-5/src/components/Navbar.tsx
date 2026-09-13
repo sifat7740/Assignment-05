@@ -1,13 +1,7 @@
 import { useState } from "react";
-import logotext from "../assets/logo-text.png"
+import logotext from "../assets/logo-text.png";
 
-const navLinks = [
-  "Home",
-  "Technologies",
-  "Projects",
-  "About",
-  "Contact"
-];
+const navLinks = ["Home", "Technologies", "Projects", "About", "Contact"];
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +9,6 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="rounded-lg p-2 lg:hidden"
@@ -37,12 +30,9 @@ const Navbar = () => {
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
-                  className={`text-sm ${
-      link === "Home"
-        ? "text-pink-500"
-        : "text-slate-600"
-    }`}
-
+              className={`text-sm ${
+                link === "Home" ? "text-pink-500" : "text-slate-600"
+              }`}
             >
               {link}
             </a>

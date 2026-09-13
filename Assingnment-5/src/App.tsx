@@ -28,9 +28,7 @@ const App = () => {
   }, []);
 
   const addToStack = (technology: Technology) => {
-    const alreadyAdded = stack.some(
-      (item) => item.id === technology.id
-    );
+    const alreadyAdded = stack.some((item) => item.id === technology.id);
 
     if (alreadyAdded) {
       toast.warning("This technology is already in your stack");
@@ -42,9 +40,7 @@ const App = () => {
   };
 
   const removeFromStack = (id: string) => {
-    const removedTechnology = stack.find(
-      (item) => item.id === id
-    );
+    const removedTechnology = stack.find((item) => item.id === id);
 
     setStack(stack.filter((item) => item.id !== id));
 

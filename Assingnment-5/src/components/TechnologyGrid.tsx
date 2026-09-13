@@ -10,7 +10,7 @@ interface TechnologyGridProps {
 const TechnologyGrid = ({
   technologies,
   stack,
-  onAdd
+  onAdd,
 }: TechnologyGridProps) => {
   return (
     <div
@@ -18,9 +18,7 @@ const TechnologyGrid = ({
       className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3"
     >
       {technologies.map((technology) => {
-        const isAdded = stack.some(
-          (item) => item.id === technology.id
-        );
+        const isAdded = stack.some((item) => item.id === technology.id);
 
         return (
           <TechnologyCard

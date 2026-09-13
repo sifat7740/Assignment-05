@@ -7,10 +7,7 @@ export type Category =
   | "DevOps"
   | "Tools";
 
-export type Difficulty =
-  | "Beginner-Friendly"
-  | "Intermediate"
-  | "Advanced";
+export type Difficulty = "Beginner-Friendly" | "Intermediate" | "Advanced";
 
 export interface Technology {
   id: string;
