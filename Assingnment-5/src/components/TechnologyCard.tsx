@@ -23,9 +23,27 @@ const TechnologyCard = ({
           />
         </div>
 
-        <span className="rounded-full bg-orange-50 px-3 py-1 text-xs font-medium text-orange-600">
-          {technology.badge}
-        </span>
+        <span
+className={`rounded-full px-3 py-1 text-xs font-medium ${
+  technology.badge === "Popular"
+    ? "bg-blue-100 text-blue-600"
+    : technology.badge === "Essential"
+    ? "bg-amber-100 text-amber-600"
+    : technology.badge === "New"
+    ? "bg-purple-50 text-purple-600"
+    : technology.badge === "Structure"
+    ? "bg-orange-500 text-orange-800"
+    : technology.badge === "Featured"
+    ? "bg-blue-200 text-blue-600"
+    : technology.badge === "Trending"
+    ? "bg-blue-50 text-blue-500"
+    : technology.badge === "Hot"
+    ? "bg-gray-100 text-green-600"
+    : "bg-orange-50 text-orange-600"
+}`}
+>
+  {technology.badge}
+</span>
       </div>
 
       <h3 className="mt-5 text-xl font-bold text-slate-900">
@@ -47,9 +65,9 @@ const TechnologyCard = ({
       </div>
 
       <div className="mt-5 flex items-center justify-between">
-        <span className="text-sm font-medium text-slate-700">
-          ★ {technology.rating}
-        </span>
+       <span className="text-sm font-medium text-slate-700">
+  <span className="text-amber-400">★</span> {technology.rating}
+</span>
 
         <button
           onClick={() => onAdd(technology)}

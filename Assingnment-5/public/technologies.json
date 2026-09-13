@@ -27,7 +27,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Structure"
   },
   {
     "id": "css",
@@ -37,7 +37,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Featured"
   },
   {
     "id": "tailwind",
@@ -47,7 +47,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Fast"
+    "badge": "Trending"
   },
   {
     "id": "node",
@@ -57,7 +57,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Hot"
   },
   {
     "id": "express",
