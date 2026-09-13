@@ -38,6 +38,8 @@ const TechnologyCard = ({
                         ? "bg-blue-50 text-blue-500"
                         : technology.badge === "Hot"
                           ? "bg-gray-100 text-green-600"
+                        : technology.badge === "Modern"
+                          ? "bg-gray-100 text-black"
                           : "bg-orange-50 text-orange-600"
           }`}
         >
