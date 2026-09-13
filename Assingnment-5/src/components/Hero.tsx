@@ -26,14 +26,14 @@ next project.
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#technologies"
-              className="gradient-bg rounded-md px-6 py-3 text-center text-sm font-semibold text-white"
+              className="gradient-bg rounded-2xl px-3 py-3 text-center text-sm font-semibold text-white"
             >
               Explore Technologies
             </a>
 
             <a
               href="#about"
-              className="rounded-md border border-slate-600 px-6 py-3 text-center text-sm text-slate-500 font-semibold "
+              className="rounded-2xl border border-slate-400 px-6 py-3  text-center text-sm text-slate-500 font-semibold "
             >
               Learn More
             </a>
