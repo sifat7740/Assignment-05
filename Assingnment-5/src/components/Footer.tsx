@@ -12,13 +12,13 @@ const Footer = () => {
           </p>
 
           <div className="mt-5 flex gap-4 text-sm">
-            <a href="#" className="hover:text-white">
+            <a href="#" className="hover:text-pink-500">
               GitHub
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="#" className="hover:text-pink-500">
               Twitter
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="#" className="hover:text-pink-500">
               LinkedIn
             </a>
           </div>
