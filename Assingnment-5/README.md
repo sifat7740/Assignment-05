@@ -1,16 +1,21 @@
 1.Project-Name
- =>DevStack
+ => DevStack
 
 2.Discription
- =>Develop your stack
+ => Explore Technologies And Develop your stack
 3.Technology That Used
- =>talwind css,Html,React,Vite,typescript ,React-Toastify-Json
+ =>talwind css,
+ React,
+ Vite,
+ typescript ,
+ React-Toastify,
+ Json
  
  
 4.3 Features About The project
  =>Count your stack
- =>Explore Programming Tecnologies 
- =>Compare Technologies Side by Side 
+ =>Explore Programming Tecnologies. 
+ =>Compare Technologies Side by Side.
 
 5.Answer of all questions
  1.Jsx is a syntax used in React that  write HTML-like code inside JavaScript.
